@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quote Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quote Generator</h1>
+      <label for="themeSelect">Select Theme:</label>
+      <select id="themeSelect">
+        <option value="love">Love</option>
+        <option value="life">Life</option>
+        <option value="success">Success</option>
+        <!-- Add more theme options as needed -->
+      </select>
+      <button onclick="generateQuote()">Generate Quote</button>
+      <div id="quoteContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
